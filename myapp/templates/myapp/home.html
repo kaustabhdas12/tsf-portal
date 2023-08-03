@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Home</title>
+    <style>
+      .scrollable {
+        max-height: 100px; /* Adjust this value to your needs */
+        max-width: 200px; /* Adjust this value to your needs */
+        overflow-y: auto;
+        overflow-x: auto;
+        white-space: nowrap; /* This will prevent the text from wrapping to the next line */
+    }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-blue-500 p-4">
+      <div class="container mx-auto flex justify-between items-center text-white">
+        <h1 class="font-bold">TATA STEEL FOUNDATION CONFERENCE PORTAL</h1>        
+        {% if user.is_authenticated %}
+          <h1 class="ml-auto">Logged in as: {{ user.email }}</h1>
+          <a href="{% url 'signout' %}" class="bg-white text-blue-500 py-2 px-4 rounded ml-8">Logout</a>
+        {% else %}
+          <a href="{% url 'signin' %}" class="bg-white text-blue-500 py-2 px-4 rounded">Login</a>
+        {% endif %}
+      </div>
+    </nav>
+    <div class="container mx-auto mt-10">
+      {% if user.is_authenticated %}
+        <h1 class="text-2xl font-bold mb-4">Events</h1>
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <div style="height: 425px; overflow-y: auto;">
+            <table class="w-full text-sm text-left text-gray-500">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">Event</th>
+                        <th scope="col" class="px-6 py-3">Start time</th>
+                        <th scope="col" class="px-6 py-3">End time</th>
+                        <th scope="col" class="px-6 py-3">Location</th>
+                        <th scope="col" class="px-6 py-3">Attendees</th>
+                        <th scope="col" class="px-6 py-3">Web Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for event in events %}
+                    <tr class="bg-white border-b hover:bg-gray-50">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">{{ event.subject }}</th>
+                        <td class="px-6 py-4">{{ event.start_time }}</td>
+                        <td class="px-6 py-4">{{ event.end_time }}</td>
+                        <td class="px-6 py-4">{{ event.location }}</td>
+                        <td class="px-6 py-4">
+                            <div class="scrollable">
+                                {{ event.attendees }}
+                            </div>
+                        </td>
+                        <td class="px-6 py-4"><a href="{{ event.web_link }}" class="text-blue-600 hover:underline">Event Details</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+          </div>
+        </div>
+      {% else %}        
+        {% load static %}
+        <img src="{% static 'myapp/logo-one.png' %}" alt="Logo">
+        <div class="flex flex-col justify-center items-center min-h-screen">
+          <div class="text-center">
+              <h2 class="text-3xl font-extrabold text-gray-900">
+                  Welcome to the TATA STEEL FOUNDATION CONFERENCE PORTAL
+              </h2>
+              <p class="mt-2 text-xl text-gray-600">
+                  This is your one-stop platform for all event-related information. Log in to gain access to a comprehensive list of events, including today's meetings, past meetings, and future meetings. Join us in fostering collaboration and knowledge sharing within our community. Don't miss out, log in now!
+              </p>
+          </div>
+        </div>
+      </div>
+      
+      
+      {% endif %}
+    </div>
+  </body>
+</html>

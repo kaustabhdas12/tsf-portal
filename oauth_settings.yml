@@ -1,0 +1,9 @@
+app_id: "0889eac6-4553-4b50-b525-f0606b737c52" 
+app_secret: "Hy68Q~Zd6R1v~uFTbgNeTmvwKE_RlmMhaI1htaQs" 
+redirect: "http://localhost:8000/callback" 
+scopes:   
+    - user.read   
+    - mailboxsettings.read   
+    - calendars.readwrite 
+    - Calendars.Read
+authority: "https://login.microsoftonline.com/3752d84f-dd69-413e-8144-ec513edf27e0"
