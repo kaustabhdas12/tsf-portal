@@ -78,7 +78,30 @@ def home(request):
                         web_link=web_link,
                         # Add any other fields you need
                     )
-            events = Event.objects.all()
+            events = Event.objects.all().order_by('start_time')
+
+            # Get the current date
+            today = timezone.now().date()
+
+            # Filter events based on the current date
+            todays_events = Event.objects.filter(start_time__date=today)
+            past_events = Event.objects.filter(start_time__date__lt=today)
+            upcoming_events = Event.objects.filter(start_time__date__gt=today)
+
+            # Get the filter from the GET parameters
+            filter = request.GET.get('filter')
+
+            now = timezone.now()
+
+            # If a filter was provided, filter the events by this filter
+            if filter == 'today':
+                events = Event.objects.filter(start_time__date=now.date()).order_by('start_time')
+            elif filter == 'past':
+                events = Event.objects.filter(end_time__lt=now).order_by('-end_time')
+            elif filter == 'upcoming':
+                events = Event.objects.filter(start_time__gt=now).order_by('start_time')
+            else:
+                events = Event.objects.all().order_by('start_time')
 
             # Create a new list to store the modified events
             modified_events = []

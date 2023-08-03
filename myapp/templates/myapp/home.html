@@ -31,6 +31,14 @@
     <div class="container mx-auto mt-10">
       {% if user.is_authenticated %}
         <h1 class="text-2xl font-bold mb-4">Events</h1>
+        <div class="mb-4 w-32">
+          <select id="filter" name="filter" onchange="location = this.value;" class="mt-1 block w-full py-2 px-4 bg-blue-500 text-white rounded shadow focus:outline-none">
+            <option value="?filter=all">All events</option>
+            <option value="?filter=today">Today's events</option>
+            <option value="?filter=past">Past events</option>
+            <option value="?filter=upcoming">Upcoming events</option>
+          </select>
+        </div>
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
           <div style="height: 425px; overflow-y: auto;">
             <table class="w-full text-sm text-left text-gray-500">
