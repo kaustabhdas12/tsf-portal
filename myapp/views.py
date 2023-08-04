@@ -63,9 +63,10 @@ def home(request):
                 web_link = event['webLink']
 
                 # Check if the event already exists in the database
-                if not Event.objects.filter(subject=event['subject'], start_time=start_time, end_time=end_time).exists():
+                if not Event.objects.filter(event_id=event['id'], subject=event['subject'], start_time=start_time, end_time=end_time).exists():
                     # Create a new Event object
                     Event.objects.create(
+                        event_id=event['id'],
                         subject=event['subject'],
                         start_time=start_time,
                         end_time=end_time,

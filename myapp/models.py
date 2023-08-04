@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Event(models.Model):
+    event_id = models.CharField(max_length=200, primary_key=True)
     subject = models.CharField(max_length=200)
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
