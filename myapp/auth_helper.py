@@ -1,7 +1,7 @@
 import yaml
 import msal
 import os
-import json
+import time
 
 # Load the oauth_settings.yml file located in your app DIR
 # Get the directory of the current file
@@ -67,33 +67,17 @@ def store_user(request, user):
     print(e)
 
 def get_token(request):
-    cache = load_cache(request)
-    auth_app = get_msal_app(cache)
+  cache = load_cache(request)
+  auth_app = get_msal_app(cache)
 
-    accounts = auth_app.get_accounts()
-    if accounts:
-        # First, try to get the token silently
-        result = auth_app.acquire_token_silent(
-            settings['scopes'],
-            account=accounts[0]
-        )
+  accounts = auth_app.get_accounts()
+  if accounts:
+    result = auth_app.acquire_token_silent(
+      settings['scopes'],
+      account=accounts[0])
+    save_cache(request, cache)
 
-        # If acquire_token_silent didn't work, then get a new token using a refresh token
-        if 'error' in result and result['error'] == 'invalid_grant':
-            # Open the access_token.json file
-            with open('access_token.json', 'r') as f:
-                token_data = json.load(f)
-
-            # Get the refresh token
-            refresh_token = token_data['refresh_token']
-
-            # Now use the refresh token to get a new access token
-            result = auth_app.acquire_token_by_refresh_token(refresh_token, settings['scopes'])
-
-        save_cache(request, cache)
-
-        return result['access_token']
-
+    return result['access_token']
 
 def remove_user_and_token(request):
   if 'token_cache' in request.session:

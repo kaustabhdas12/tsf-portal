@@ -129,6 +129,7 @@ def home(request):
                 events = Event.objects.filter(start_time__date=date)
 
             context['events'] = modified_events
+            context['filter'] = filter
 
     return render(request, 'myapp/home.html', context)
 
