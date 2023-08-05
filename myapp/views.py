@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.urls import reverse
 from django.utils.dateparse import parse_datetime
 from myapp.auth_helper import get_sign_in_flow, get_token_from_code, store_user, remove_user_and_token, get_token
@@ -10,6 +10,7 @@ import os
 from django.utils import timezone
 import pytz
 from datetime import datetime
+import yaml
 
 
 def home(request):
