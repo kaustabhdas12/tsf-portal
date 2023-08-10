@@ -1,5 +1,383 @@
 [
     {
+        "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAABZMv3Q==\"",
+        "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAAFmScEAAA=",
+        "createdDateTime": "2023-08-09T09:43:36.9031295Z",
+        "lastModifiedDateTime": "2023-08-09T09:49:08.7856858Z",
+        "changeKey": "iG+HGQ79tEOkwNMxdpF2SgAABZMv3Q==",
+        "categories": [],
+        "transactionId": null,
+        "originalStartTimeZone": "India Standard Time",
+        "originalEndTimeZone": "India Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E008000000002E3BE2F5A5CAD9010000000000000000100000009D7D04ED261BDB4BB1F6A79FE67F46E6",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "Main hall test",
+        "bodyPreview": "ts\r\n\r\n________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin on your computer, mobile app or room device\r\nClick here to join the meeting\r\nMeeting ID: 471 689 542 869\r\nPasscode: bBTWp9\r\nDownload Team",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": false,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "tentative",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o%2BR4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAAFmScEAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": true,
+        "onlineMeetingProvider": "teamsForBusiness",
+        "allowNewTimeProposals": true,
+        "occurrenceId": null,
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+            "response": "notResponded",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\n<div class=\"elementToProof\" style=\"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)\">\r\nts</div>\r\n<br>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n<div class=\"me-email-text\" lang=\"en-US\" style=\"color:#252424; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n<div style=\"margin-top:24px; margin-bottom:20px\"><span style=\"font-size:24px; color:#252424\">Microsoft Teams meeting</span>\r\n</div>\r\n<div style=\"margin-bottom:20px\">\r\n<div style=\"margin-top:0px; margin-bottom:0px; font-weight:bold\"><span style=\"font-size:14px; color:#252424\">Join on your computer, mobile app or room device</span>\r\n</div>\r\n<a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTg5ZmQ3MGEtYzMzOS00NmVlLWE3OGYtMjliNWZiMWZhOTE5%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%22e66e77e8-7f1a-4bb0-998c-c6bfd1bbd6b2%22%7d\" class=\"me-email-headline\" style=\"font-size:14px; font-family:'Segoe UI Semibold','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; text-decoration:underline; color:#6264a7\">Click\r\n here to join the meeting</a> </div>\r\n<div style=\"margin-bottom:20px; margin-top:20px\">\r\n<div style=\"margin-bottom:4px\"><span data-tid=\"meeting-code\" style=\"font-size:14px; color:#252424\">Meeting ID:\r\n<span style=\"font-size:16px; color:#252424\">471 689 542 869</span> </span><br>\r\n<span style=\"font-size:14px; color:#252424\">Passcode: </span><span style=\"font-size:16px; color:#252424\">bBTWp9\r\n</span>\r\n<div style=\"font-size:14px\"><a href=\"https://www.microsoft.com/en-us/microsoft-teams/download-app\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Download\r\n Teams</a> | <a href=\"https://www.microsoft.com/microsoft-teams/join-a-meeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nJoin on the web</a></div>\r\n</div>\r\n</div>\r\n<div style=\"margin-bottom:24px; margin-top:20px\"><a href=\"https://aka.ms/JoinTeamsMeeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Learn More</a>\r\n | <a href=\"https://teams.microsoft.com/meetingOptions/?organizerId=e66e77e8-7f1a-4bb0-998c-c6bfd1bbd6b2&amp;tenantId=3752d84f-dd69-413e-8144-ec513edf27e0&amp;threadId=19_meeting_MTg5ZmQ3MGEtYzMzOS00NmVlLWE3OGYtMjliNWZiMWZhOTE5@thread.v2&amp;messageId=0&amp;language=en-US\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nMeeting options</a> </div>\r\n</div>\r\n<div style=\"font-size:14px; margin-bottom:4px; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n</div>\r\n<div style=\"font-size:12px\"></div>\r\n<div></div>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n</body>\r\n</html>\r\n"
+        },
+        "start": {
+            "dateTime": "2023-08-09T10:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2023-08-09T11:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "TSF Main Conference Hall",
+            "locationUri": "resource@tatasteelfoundation.org",
+            "locationType": "conferenceRoom",
+            "uniqueId": "resource@tatasteelfoundation.org",
+            "uniqueIdType": "directory",
+            "address": {
+                "street": "",
+                "city": "",
+                "state": "",
+                "countryOrRegion": "",
+                "postalCode": ""
+            },
+            "coordinates": {}
+        },
+        "locations": [
+            {
+                "displayName": "TSF Main Conference Hall",
+                "locationUri": "resource@tatasteelfoundation.org",
+                "locationType": "conferenceRoom",
+                "uniqueId": "resource@tatasteelfoundation.org",
+                "uniqueIdType": "directory",
+                "address": {
+                    "street": "",
+                    "city": "",
+                    "state": "",
+                    "countryOrRegion": "",
+                    "postalCode": ""
+                },
+                "coordinates": {}
+            }
+        ],
+        "recurrence": null,
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "Mant Kumar",
+                    "address": "mant.kumar@tatasteelfoundation.org"
+                }
+            },
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "TSF Resource",
+                    "address": "resources@tatasteelfoundation.org"
+                }
+            },
+            {
+                "type": "resource",
+                "status": {
+                    "response": "accepted",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "TSF Main Conference Hall",
+                    "address": "resource@tatasteelfoundation.org"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "Mant Kumar",
+                "address": "mant.kumar@tatasteelfoundation.org"
+            }
+        },
+        "onlineMeeting": {
+            "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTg5ZmQ3MGEtYzMzOS00NmVlLWE3OGYtMjliNWZiMWZhOTE5%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%22e66e77e8-7f1a-4bb0-998c-c6bfd1bbd6b2%22%7d"
+        },
+        "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
+        "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"
+    },
+    {
+        "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAABCl2Jg==\"",
+        "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAAELohNAAA=",
+        "createdDateTime": "2023-08-07T05:48:32.1212085Z",
+        "lastModifiedDateTime": "2023-08-07T05:48:54.6564495Z",
+        "changeKey": "iG+HGQ79tEOkwNMxdpF2SgAABCl2Jg==",
+        "categories": [],
+        "transactionId": "13f5005a-d604-185e-350d-0df5eb8a6fce",
+        "originalStartTimeZone": "India Standard Time",
+        "originalEndTimeZone": "India Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E00800000000992E68CCF2C8D9010000000000000000100000001E091A02FE006F45BDC0FBE34D8B1BFF",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "test event overlap",
+        "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin on your computer, mobile app or room device\r\nClick here to join the meeting\r\nMeeting ID: 443 031 213 817\r\nPasscode: KUVkLR\r\nDownload Teams | ",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o%2BR4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAAELohNAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": true,
+        "onlineMeetingProvider": "teamsForBusiness",
+        "allowNewTimeProposals": true,
+        "occurrenceId": null,
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\n<br>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n<div class=\"me-email-text\" lang=\"en-IN\" style=\"color:#252424; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n<div style=\"margin-top:24px; margin-bottom:20px\"><span style=\"font-size:24px; color:#252424\">Microsoft Teams meeting</span>\r\n</div>\r\n<div style=\"margin-bottom:20px\">\r\n<div style=\"margin-top:0px; margin-bottom:0px; font-weight:bold\"><span style=\"font-size:14px; color:#252424\">Join on your computer, mobile app or room device</span>\r\n</div>\r\n<a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmY2YmRlMDktZDBiMy00OTE5LWJkYWMtNTgwMmIwZTAzNzE3%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%225b01ac88-5a8a-468e-aa2b-e7c4f3c34e47%22%7d\" class=\"me-email-headline\" style=\"font-size:14px; font-family:'Segoe UI Semibold','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; text-decoration:underline; color:#6264a7\">Click\r\n here to join the meeting</a> </div>\r\n<div style=\"margin-bottom:20px; margin-top:20px\">\r\n<div style=\"margin-bottom:4px\"><span data-tid=\"meeting-code\" style=\"font-size:14px; color:#252424\">Meeting ID:\r\n<span style=\"font-size:16px; color:#252424\">443 031 213 817</span> </span><br>\r\n<span style=\"font-size:14px; color:#252424\">Passcode: </span><span style=\"font-size:16px; color:#252424\">KUVkLR\r\n</span>\r\n<div style=\"font-size:14px\"><a href=\"https://www.microsoft.com/en-us/microsoft-teams/download-app\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Download\r\n Teams</a> | <a href=\"https://www.microsoft.com/microsoft-teams/join-a-meeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nJoin on the web</a></div>\r\n</div>\r\n</div>\r\n<div style=\"margin-bottom:24px; margin-top:20px\"><a href=\"https://aka.ms/JoinTeamsMeeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Learn More</a>\r\n | <a href=\"https://teams.microsoft.com/meetingOptions/?organizerId=5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47&amp;tenantId=3752d84f-dd69-413e-8144-ec513edf27e0&amp;threadId=19_meeting_ZmY2YmRlMDktZDBiMy00OTE5LWJkYWMtNTgwMmIwZTAzNzE3@thread.v2&amp;messageId=0&amp;language=en-IN\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nMeeting options</a> </div>\r\n</div>\r\n<div style=\"font-size:14px; margin-bottom:4px; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n</div>\r\n<div style=\"font-size:12px\"></div>\r\n<div></div>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n</body>\r\n</html>\r\n"
+        },
+        "start": {
+            "dateTime": "2023-08-07T06:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2023-08-07T07:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "Microsoft Teams Meeting",
+            "locationType": "default",
+            "uniqueId": "Microsoft Teams Meeting",
+            "uniqueIdType": "private"
+        },
+        "locations": [
+            {
+                "displayName": "Microsoft Teams Meeting",
+                "locationType": "default",
+                "uniqueId": "Microsoft Teams Meeting",
+                "uniqueIdType": "private"
+            }
+        ],
+        "recurrence": null,
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "kaustabhdas12@gmail.com",
+                    "address": "kaustabhdas12@gmail.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "TSF Resource",
+                "address": "resources@tatasteelfoundation.org"
+            }
+        },
+        "onlineMeeting": {
+            "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmY2YmRlMDktZDBiMy00OTE5LWJkYWMtNTgwMmIwZTAzNzE3%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%225b01ac88-5a8a-468e-aa2b-e7c4f3c34e47%22%7d"
+        },
+        "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
+        "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"
+    },
+    {
+        "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAAA5uM/w==\"",
+        "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAADoCPqAAA=",
+        "createdDateTime": "2023-08-06T06:35:24.0147718Z",
+        "lastModifiedDateTime": "2023-08-06T06:35:25.2391628Z",
+        "changeKey": "iG+HGQ79tEOkwNMxdpF2SgAAA5uM/w==",
+        "categories": [],
+        "transactionId": "583c3167-985f-e187-1af0-1b70d4364231",
+        "originalStartTimeZone": "India Standard Time",
+        "originalEndTimeZone": "India Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E00800000000AB11042E30C8D901000000000000000010000000F8046D2F361C6441A263FA28C4D99174",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "test event 565656565",
+        "bodyPreview": "",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o%2BR4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAADoCPqAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": false,
+        "onlineMeetingProvider": "unknown",
+        "allowNewTimeProposals": true,
+        "occurrenceId": null,
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": ""
+        },
+        "start": {
+            "dateTime": "2023-08-06T07:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2023-08-06T08:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "",
+            "locationType": "default",
+            "uniqueIdType": "unknown",
+            "address": {},
+            "coordinates": {}
+        },
+        "locations": [],
+        "recurrence": null,
+        "attendees": [],
+        "organizer": {
+            "emailAddress": {
+                "name": "TSF Resource",
+                "address": "resources@tatasteelfoundation.org"
+            }
+        },
+        "onlineMeeting": null,
+        "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
+        "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"
+    },
+    {
+        "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAAAzI1Fw==\"",
+        "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAADNkTXAAA=",
+        "createdDateTime": "2023-08-05T05:41:46.5700263Z",
+        "lastModifiedDateTime": "2023-08-05T05:42:06.4057769Z",
+        "changeKey": "iG+HGQ79tEOkwNMxdpF2SgAAAzI1Fw==",
+        "categories": [
+            "Red category"
+        ],
+        "transactionId": "be40ad61-4722-b410-ac08-40db69341849",
+        "originalStartTimeZone": "India Standard Time",
+        "originalEndTimeZone": "India Standard Time",
+        "iCalUId": "040000008200E00074C5B7101A82E008000000003169E0855FC7D9010000000000000000100000008500ADA0C19CF34B8D4E6732D744607C",
+        "reminderMinutesBeforeStart": 15,
+        "isReminderOn": true,
+        "hasAttachments": false,
+        "subject": "category event",
+        "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin on your computer, mobile app or room device\r\nClick here to join the meeting\r\nMeeting ID: 456 799 831 694\r\nPasscode: PfkiFf\r\nDownload Teams | ",
+        "importance": "normal",
+        "sensitivity": "normal",
+        "isAllDay": false,
+        "isCancelled": false,
+        "isOrganizer": true,
+        "responseRequested": true,
+        "seriesMasterId": null,
+        "showAs": "busy",
+        "type": "singleInstance",
+        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o%2BR4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAADNkTXAAA%3D&exvsurl=1&path=/calendar/item",
+        "onlineMeetingUrl": null,
+        "isOnlineMeeting": true,
+        "onlineMeetingProvider": "teamsForBusiness",
+        "allowNewTimeProposals": true,
+        "occurrenceId": null,
+        "isDraft": false,
+        "hideAttendees": false,
+        "responseStatus": {
+            "response": "organizer",
+            "time": "0001-01-01T00:00:00Z"
+        },
+        "body": {
+            "contentType": "html",
+            "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\n<br>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n<div class=\"me-email-text\" lang=\"en-IN\" style=\"color:#252424; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n<div style=\"margin-top:24px; margin-bottom:20px\"><span style=\"font-size:24px; color:#252424\">Microsoft Teams meeting</span>\r\n</div>\r\n<div style=\"margin-bottom:20px\">\r\n<div style=\"margin-top:0px; margin-bottom:0px; font-weight:bold\"><span style=\"font-size:14px; color:#252424\">Join on your computer, mobile app or room device</span>\r\n</div>\r\n<a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDU1NDYwYWItYjRlMy00MDVlLThiYmMtZTg5OGE4MDcxYTE5%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%225b01ac88-5a8a-468e-aa2b-e7c4f3c34e47%22%7d\" class=\"me-email-headline\" style=\"font-size:14px; font-family:'Segoe UI Semibold','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; text-decoration:underline; color:#6264a7\">Click\r\n here to join the meeting</a> </div>\r\n<div style=\"margin-bottom:20px; margin-top:20px\">\r\n<div style=\"margin-bottom:4px\"><span data-tid=\"meeting-code\" style=\"font-size:14px; color:#252424\">Meeting ID:\r\n<span style=\"font-size:16px; color:#252424\">456 799 831 694</span> </span><br>\r\n<span style=\"font-size:14px; color:#252424\">Passcode: </span><span style=\"font-size:16px; color:#252424\">PfkiFf\r\n</span>\r\n<div style=\"font-size:14px\"><a href=\"https://www.microsoft.com/en-us/microsoft-teams/download-app\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Download\r\n Teams</a> | <a href=\"https://www.microsoft.com/microsoft-teams/join-a-meeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nJoin on the web</a></div>\r\n</div>\r\n</div>\r\n<div style=\"margin-bottom:24px; margin-top:20px\"><a href=\"https://aka.ms/JoinTeamsMeeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Learn More</a>\r\n | <a href=\"https://teams.microsoft.com/meetingOptions/?organizerId=5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47&amp;tenantId=3752d84f-dd69-413e-8144-ec513edf27e0&amp;threadId=19_meeting_ZDU1NDYwYWItYjRlMy00MDVlLThiYmMtZTg5OGE4MDcxYTE5@thread.v2&amp;messageId=0&amp;language=en-IN\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nMeeting options</a> </div>\r\n</div>\r\n<div style=\"font-size:14px; margin-bottom:4px; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n</div>\r\n<div style=\"font-size:12px\"></div>\r\n<div></div>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n</body>\r\n</html>\r\n"
+        },
+        "start": {
+            "dateTime": "2023-08-05T06:30:00.0000000",
+            "timeZone": "UTC"
+        },
+        "end": {
+            "dateTime": "2023-08-05T07:00:00.0000000",
+            "timeZone": "UTC"
+        },
+        "location": {
+            "displayName": "Microsoft Teams Meeting",
+            "locationType": "default",
+            "uniqueId": "Microsoft Teams Meeting",
+            "uniqueIdType": "private"
+        },
+        "locations": [
+            {
+                "displayName": "Microsoft Teams Meeting",
+                "locationType": "default",
+                "uniqueId": "Microsoft Teams Meeting",
+                "uniqueIdType": "private"
+            }
+        ],
+        "recurrence": null,
+        "attendees": [
+            {
+                "type": "required",
+                "status": {
+                    "response": "none",
+                    "time": "0001-01-01T00:00:00Z"
+                },
+                "emailAddress": {
+                    "name": "cloudythought9@outlook.com",
+                    "address": "cloudythought9@outlook.com"
+                }
+            }
+        ],
+        "organizer": {
+            "emailAddress": {
+                "name": "TSF Resource",
+                "address": "resources@tatasteelfoundation.org"
+            }
+        },
+        "onlineMeeting": {
+            "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDU1NDYwYWItYjRlMy00MDVlLThiYmMtZTg5OGE4MDcxYTE5%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%225b01ac88-5a8a-468e-aa2b-e7c4f3c34e47%22%7d"
+        },
+        "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
+        "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"
+    },
+    {
         "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAAAzIreQ==\"",
         "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAADNkTWAAA=",
         "createdDateTime": "2023-08-05T02:35:59.0515207Z",
@@ -480,362 +858,6 @@
         },
         "onlineMeeting": {
             "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmI0N2FlMmItY2YwNy00NGZiLWEzNzItMzVjNGEyODUyYjNh%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%22e66e77e8-7f1a-4bb0-998c-c6bfd1bbd6b2%22%7d"
-        },
-        "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
-        "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"
-    },
-    {
-        "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAAAatD/w==\"",
-        "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAABrk7mAAA=",
-        "createdDateTime": "2023-08-03T05:02:33.7635442Z",
-        "lastModifiedDateTime": "2023-08-03T05:03:10.3430098Z",
-        "changeKey": "iG+HGQ79tEOkwNMxdpF2SgAAAatD/w==",
-        "categories": [],
-        "transactionId": null,
-        "originalStartTimeZone": "India Standard Time",
-        "originalEndTimeZone": "India Standard Time",
-        "iCalUId": "040000008200E00074C5B7101A82E008000000003FCB86B4C7C5D901000000000000000010000000E1BF26BE9CB0E148A2EB35FC153B5D9C",
-        "reminderMinutesBeforeStart": 15,
-        "isReminderOn": true,
-        "hasAttachments": false,
-        "subject": "Conference hall Location test",
-        "bodyPreview": "",
-        "importance": "normal",
-        "sensitivity": "normal",
-        "isAllDay": false,
-        "isCancelled": false,
-        "isOrganizer": false,
-        "responseRequested": true,
-        "seriesMasterId": null,
-        "showAs": "tentative",
-        "type": "singleInstance",
-        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o%2BR4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAABrk7mAAA%3D&exvsurl=1&path=/calendar/item",
-        "onlineMeetingUrl": null,
-        "isOnlineMeeting": false,
-        "onlineMeetingProvider": "unknown",
-        "allowNewTimeProposals": true,
-        "occurrenceId": null,
-        "isDraft": false,
-        "hideAttendees": false,
-        "responseStatus": {
-            "response": "notResponded",
-            "time": "0001-01-01T00:00:00Z"
-        },
-        "body": {
-            "contentType": "html",
-            "content": ""
-        },
-        "start": {
-            "dateTime": "2023-08-03T11:00:00.0000000",
-            "timeZone": "UTC"
-        },
-        "end": {
-            "dateTime": "2023-08-03T11:30:00.0000000",
-            "timeZone": "UTC"
-        },
-        "location": {
-            "displayName": "TSF Main Conference Hall",
-            "locationType": "default",
-            "uniqueId": "TSF Main Conference Hall",
-            "uniqueIdType": "private"
-        },
-        "locations": [
-            {
-                "displayName": "TSF Main Conference Hall",
-                "locationType": "default",
-                "uniqueId": "TSF Main Conference Hall",
-                "uniqueIdType": "private"
-            }
-        ],
-        "recurrence": null,
-        "attendees": [
-            {
-                "type": "required",
-                "status": {
-                    "response": "none",
-                    "time": "0001-01-01T00:00:00Z"
-                },
-                "emailAddress": {
-                    "name": "Mant Kumar",
-                    "address": "mant.kumar@tatasteelfoundation.org"
-                }
-            },
-            {
-                "type": "required",
-                "status": {
-                    "response": "none",
-                    "time": "0001-01-01T00:00:00Z"
-                },
-                "emailAddress": {
-                    "name": "TSF Resource",
-                    "address": "resources@tatasteelfoundation.org"
-                }
-            }
-        ],
-        "organizer": {
-            "emailAddress": {
-                "name": "Mant Kumar",
-                "address": "mant.kumar@tatasteelfoundation.org"
-            }
-        },
-        "onlineMeeting": null,
-        "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
-        "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"
-    },
-    {
-        "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAAAatD4g==\"",
-        "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAABrk7lAAA=",
-        "createdDateTime": "2023-08-03T04:54:24.9017456Z",
-        "lastModifiedDateTime": "2023-08-03T04:55:10.5852385Z",
-        "changeKey": "iG+HGQ79tEOkwNMxdpF2SgAAAatD4g==",
-        "categories": [],
-        "transactionId": null,
-        "originalStartTimeZone": "India Standard Time",
-        "originalEndTimeZone": "India Standard Time",
-        "iCalUId": "040000008200E00074C5B7101A82E00800000000EE44A090C6C5D9010000000000000000100000000E64693791360D4A84D73E3AF21F5332",
-        "reminderMinutesBeforeStart": 15,
-        "isReminderOn": true,
-        "hasAttachments": false,
-        "subject": "Conference hall booking test",
-        "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin on your computer, mobile app or room device\r\nClick here to join the meeting\r\nMeeting ID: 413 250 395 375\r\nPasscode: 4aVNnD\r\nDownload Team",
-        "importance": "normal",
-        "sensitivity": "normal",
-        "isAllDay": false,
-        "isCancelled": false,
-        "isOrganizer": false,
-        "responseRequested": true,
-        "seriesMasterId": null,
-        "showAs": "tentative",
-        "type": "singleInstance",
-        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o%2BR4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAABrk7lAAA%3D&exvsurl=1&path=/calendar/item",
-        "onlineMeetingUrl": null,
-        "isOnlineMeeting": true,
-        "onlineMeetingProvider": "teamsForBusiness",
-        "allowNewTimeProposals": true,
-        "occurrenceId": null,
-        "isDraft": false,
-        "hideAttendees": false,
-        "responseStatus": {
-            "response": "notResponded",
-            "time": "0001-01-01T00:00:00Z"
-        },
-        "body": {
-            "contentType": "html",
-            "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\n<div><br>\r\n<br>\r\n<br>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n<div class=\"me-email-text\" lang=\"en-US\" style=\"color:#252424; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n<div style=\"margin-top:24px; margin-bottom:20px\"><span style=\"font-size:24px; color:#252424\">Microsoft Teams meeting</span>\r\n</div>\r\n<div style=\"margin-bottom:20px\">\r\n<div style=\"margin-top:0px; margin-bottom:0px; font-weight:bold\"><span style=\"font-size:14px; color:#252424\">Join on your computer, mobile app or room device</span>\r\n</div>\r\n<a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGM4Mzk1YTctNjI5ZS00NTcyLTk1NGUtM2NhZmY1ZjIyZTE5%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%22e66e77e8-7f1a-4bb0-998c-c6bfd1bbd6b2%22%7d\" class=\"me-email-headline\" style=\"font-size:14px; font-family:'Segoe UI Semibold','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; text-decoration:underline; color:#6264a7\">Click\r\n here to join the meeting</a> </div>\r\n<div style=\"margin-bottom:20px; margin-top:20px\">\r\n<div style=\"margin-bottom:4px\"><span data-tid=\"meeting-code\" style=\"font-size:14px; color:#252424\">Meeting ID:\r\n<span style=\"font-size:16px; color:#252424\">413 250 395 375</span> </span><br>\r\n<span style=\"font-size:14px; color:#252424\">Passcode: </span><span style=\"font-size:16px; color:#252424\">4aVNnD\r\n</span>\r\n<div style=\"font-size:14px\"><a href=\"https://www.microsoft.com/en-us/microsoft-teams/download-app\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Download\r\n Teams</a> | <a href=\"https://www.microsoft.com/microsoft-teams/join-a-meeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nJoin on the web</a></div>\r\n</div>\r\n</div>\r\n<div style=\"margin-bottom:24px; margin-top:20px\"><a href=\"https://aka.ms/JoinTeamsMeeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Learn More</a>\r\n | <a href=\"https://teams.microsoft.com/meetingOptions/?organizerId=e66e77e8-7f1a-4bb0-998c-c6bfd1bbd6b2&amp;tenantId=3752d84f-dd69-413e-8144-ec513edf27e0&amp;threadId=19_meeting_MGM4Mzk1YTctNjI5ZS00NTcyLTk1NGUtM2NhZmY1ZjIyZTE5@thread.v2&amp;messageId=0&amp;language=en-US\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nMeeting options</a> </div>\r\n</div>\r\n<div style=\"font-size:14px; margin-bottom:4px; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n</div>\r\n<div style=\"font-size:12px\"></div>\r\n</div>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n<div></div>\r\n</body>\r\n</html>\r\n"
-        },
-        "start": {
-            "dateTime": "2023-08-03T07:00:00.0000000",
-            "timeZone": "UTC"
-        },
-        "end": {
-            "dateTime": "2023-08-03T07:30:00.0000000",
-            "timeZone": "UTC"
-        },
-        "location": {
-            "displayName": "Microsoft Teams Meeting",
-            "locationType": "default",
-            "uniqueId": "Microsoft Teams Meeting",
-            "uniqueIdType": "private"
-        },
-        "locations": [
-            {
-                "displayName": "Microsoft Teams Meeting",
-                "locationType": "default",
-                "uniqueId": "Microsoft Teams Meeting",
-                "uniqueIdType": "private"
-            }
-        ],
-        "recurrence": null,
-        "attendees": [
-            {
-                "type": "required",
-                "status": {
-                    "response": "none",
-                    "time": "0001-01-01T00:00:00Z"
-                },
-                "emailAddress": {
-                    "name": "Mant Kumar",
-                    "address": "mant.kumar@tatasteelfoundation.org"
-                }
-            },
-            {
-                "type": "required",
-                "status": {
-                    "response": "none",
-                    "time": "0001-01-01T00:00:00Z"
-                },
-                "emailAddress": {
-                    "name": "TSF Resource",
-                    "address": "resources@tatasteelfoundation.org"
-                }
-            }
-        ],
-        "organizer": {
-            "emailAddress": {
-                "name": "Mant Kumar",
-                "address": "mant.kumar@tatasteelfoundation.org"
-            }
-        },
-        "onlineMeeting": {
-            "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGM4Mzk1YTctNjI5ZS00NTcyLTk1NGUtM2NhZmY1ZjIyZTE5%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%22e66e77e8-7f1a-4bb0-998c-c6bfd1bbd6b2%22%7d"
-        },
-        "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
-        "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"
-    },
-    {
-        "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAAAasfVQ==\"",
-        "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAABrk7kAAA=",
-        "createdDateTime": "2023-08-02T19:26:40.6982643Z",
-        "lastModifiedDateTime": "2023-08-02T19:26:41.5143346Z",
-        "changeKey": "iG+HGQ79tEOkwNMxdpF2SgAAAasfVQ==",
-        "categories": [],
-        "transactionId": "5f435749-a50d-6e2e-e718-84c47b5a856d",
-        "originalStartTimeZone": "India Standard Time",
-        "originalEndTimeZone": "India Standard Time",
-        "iCalUId": "040000008200E00074C5B7101A82E00800000000CF56694377C5D9010000000000000000100000008818526B2F51C84D99E587DC85508CCD",
-        "reminderMinutesBeforeStart": 15,
-        "isReminderOn": true,
-        "hasAttachments": false,
-        "subject": "test scroll",
-        "bodyPreview": "",
-        "importance": "normal",
-        "sensitivity": "normal",
-        "isAllDay": false,
-        "isCancelled": false,
-        "isOrganizer": true,
-        "responseRequested": true,
-        "seriesMasterId": null,
-        "showAs": "busy",
-        "type": "singleInstance",
-        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o%2BR4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAABrk7kAAA%3D&exvsurl=1&path=/calendar/item",
-        "onlineMeetingUrl": null,
-        "isOnlineMeeting": false,
-        "onlineMeetingProvider": "unknown",
-        "allowNewTimeProposals": true,
-        "occurrenceId": null,
-        "isDraft": false,
-        "hideAttendees": false,
-        "responseStatus": {
-            "response": "organizer",
-            "time": "0001-01-01T00:00:00Z"
-        },
-        "body": {
-            "contentType": "html",
-            "content": ""
-        },
-        "start": {
-            "dateTime": "2023-08-23T02:30:00.0000000",
-            "timeZone": "UTC"
-        },
-        "end": {
-            "dateTime": "2023-08-23T03:00:00.0000000",
-            "timeZone": "UTC"
-        },
-        "location": {
-            "displayName": "",
-            "locationType": "default",
-            "uniqueIdType": "unknown",
-            "address": {},
-            "coordinates": {}
-        },
-        "locations": [],
-        "recurrence": null,
-        "attendees": [],
-        "organizer": {
-            "emailAddress": {
-                "name": "TSF Resource",
-                "address": "resources@tatasteelfoundation.org"
-            }
-        },
-        "onlineMeeting": null,
-        "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
-        "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"
-    },
-    {
-        "@odata.etag": "W/\"iG+HGQ79tEOkwNMxdpF2SgAAAasfQw==\"",
-        "id": "AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o_R4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAABrk7jAAA=",
-        "createdDateTime": "2023-08-02T19:20:59.9703408Z",
-        "lastModifiedDateTime": "2023-08-02T19:21:18.8971065Z",
-        "changeKey": "iG+HGQ79tEOkwNMxdpF2SgAAAasfQw==",
-        "categories": [],
-        "transactionId": "d209049f-5e2b-0b2e-ef6c-2e385145003e",
-        "originalStartTimeZone": "India Standard Time",
-        "originalEndTimeZone": "India Standard Time",
-        "iCalUId": "040000008200E00074C5B7101A82E0080000000086A2517876C5D901000000000000000010000000E4F13C7A96E3734BA265BED8B83F24A7",
-        "reminderMinutesBeforeStart": 15,
-        "isReminderOn": true,
-        "hasAttachments": false,
-        "subject": "test event 6",
-        "bodyPreview": "________________________________________________________________________________\r\nMicrosoft Teams meeting\r\nJoin on your computer, mobile app or room device\r\nClick here to join the meeting\r\nMeeting ID: 440 035 473 223\r\nPasscode: Q2sQsY\r\nDownload Teams | ",
-        "importance": "normal",
-        "sensitivity": "normal",
-        "isAllDay": false,
-        "isCancelled": false,
-        "isOrganizer": true,
-        "responseRequested": true,
-        "seriesMasterId": null,
-        "showAs": "busy",
-        "type": "singleInstance",
-        "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAAAADSXTF0C2o%2BR4GcRqQHbIWJBwCIb4cZDv20Q6TA0zF2kXZKAAAAAAENAACIb4cZDv20Q6TA0zF2kXZKAAABrk7jAAA%3D&exvsurl=1&path=/calendar/item",
-        "onlineMeetingUrl": null,
-        "isOnlineMeeting": true,
-        "onlineMeetingProvider": "teamsForBusiness",
-        "allowNewTimeProposals": true,
-        "occurrenceId": null,
-        "isDraft": false,
-        "hideAttendees": false,
-        "responseStatus": {
-            "response": "organizer",
-            "time": "0001-01-01T00:00:00Z"
-        },
-        "body": {
-            "contentType": "html",
-            "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\n<br>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n<div class=\"me-email-text\" lang=\"en-IN\" style=\"color:#252424; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n<div style=\"margin-top:24px; margin-bottom:20px\"><span style=\"font-size:24px; color:#252424\">Microsoft Teams meeting</span>\r\n</div>\r\n<div style=\"margin-bottom:20px\">\r\n<div style=\"margin-top:0px; margin-bottom:0px; font-weight:bold\"><span style=\"font-size:14px; color:#252424\">Join on your computer, mobile app or room device</span>\r\n</div>\r\n<a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWY1NDA2ZTMtNzliYi00M2IwLWE0ODMtNWQxZjRiMTllZTA1%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%225b01ac88-5a8a-468e-aa2b-e7c4f3c34e47%22%7d\" class=\"me-email-headline\" style=\"font-size:14px; font-family:'Segoe UI Semibold','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; text-decoration:underline; color:#6264a7\">Click\r\n here to join the meeting</a> </div>\r\n<div style=\"margin-bottom:20px; margin-top:20px\">\r\n<div style=\"margin-bottom:4px\"><span data-tid=\"meeting-code\" style=\"font-size:14px; color:#252424\">Meeting ID:\r\n<span style=\"font-size:16px; color:#252424\">440 035 473 223</span> </span><br>\r\n<span style=\"font-size:14px; color:#252424\">Passcode: </span><span style=\"font-size:16px; color:#252424\">Q2sQsY\r\n</span>\r\n<div style=\"font-size:14px\"><a href=\"https://www.microsoft.com/en-us/microsoft-teams/download-app\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Download\r\n Teams</a> | <a href=\"https://www.microsoft.com/microsoft-teams/join-a-meeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nJoin on the web</a></div>\r\n</div>\r\n</div>\r\n<div style=\"margin-bottom:24px; margin-top:20px\"><a href=\"https://aka.ms/JoinTeamsMeeting\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">Learn More</a>\r\n | <a href=\"https://teams.microsoft.com/meetingOptions/?organizerId=5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47&amp;tenantId=3752d84f-dd69-413e-8144-ec513edf27e0&amp;threadId=19_meeting_MWY1NDA2ZTMtNzliYi00M2IwLWE0ODMtNWQxZjRiMTllZTA1@thread.v2&amp;messageId=0&amp;language=en-IN\" class=\"me-email-link\" style=\"font-size:14px; text-decoration:underline; color:#6264a7; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\nMeeting options</a> </div>\r\n</div>\r\n<div style=\"font-size:14px; margin-bottom:4px; font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif\">\r\n</div>\r\n<div style=\"font-size:12px\"></div>\r\n<div></div>\r\n<div style=\"width:100%\"><span style=\"white-space:nowrap; color:#5F5F5F; opacity:.36\">________________________________________________________________________________</span>\r\n</div>\r\n</body>\r\n</html>\r\n"
-        },
-        "start": {
-            "dateTime": "2023-08-18T02:30:00.0000000",
-            "timeZone": "UTC"
-        },
-        "end": {
-            "dateTime": "2023-08-18T03:00:00.0000000",
-            "timeZone": "UTC"
-        },
-        "location": {
-            "displayName": "Microsoft Teams Meeting",
-            "locationType": "default",
-            "uniqueId": "Microsoft Teams Meeting",
-            "uniqueIdType": "private"
-        },
-        "locations": [
-            {
-                "displayName": "Microsoft Teams Meeting",
-                "locationType": "default",
-                "uniqueId": "Microsoft Teams Meeting",
-                "uniqueIdType": "private"
-            }
-        ],
-        "recurrence": null,
-        "attendees": [
-            {
-                "type": "required",
-                "status": {
-                    "response": "none",
-                    "time": "0001-01-01T00:00:00Z"
-                },
-                "emailAddress": {
-                    "name": "kaustabhdas12@gmail.com",
-                    "address": "kaustabhdas12@gmail.com"
-                }
-            }
-        ],
-        "organizer": {
-            "emailAddress": {
-                "name": "TSF Resource",
-                "address": "resources@tatasteelfoundation.org"
-            }
-        },
-        "onlineMeeting": {
-            "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWY1NDA2ZTMtNzliYi00M2IwLWE0ODMtNWQxZjRiMTllZTA1%40thread.v2/0?context=%7b%22Tid%22%3a%223752d84f-dd69-413e-8144-ec513edf27e0%22%2c%22Oid%22%3a%225b01ac88-5a8a-468e-aa2b-e7c4f3c34e47%22%7d"
         },
         "calendar@odata.associationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')/$ref",
         "calendar@odata.navigationLink": "https://graph.microsoft.com/v1.0/users('5b01ac88-5a8a-468e-aa2b-e7c4f3c34e47')/calendars('AQMkAGYyZGMyYWQ2LWJhYjMtNGE5Yy1hZWYyLWZkMTBhYjA2YzM1OQBGAAAD0l0xdAtqPkeBnEakB2yFiQcAiG_HGQ79tEOkwNMxdpF2SgAAAgEGAAAAiG_HGQ79tEOkwNMxdpF2SgAAAiC8AAAA')"

@@ -1,8 +1,8 @@
 from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
+from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.utils.dateparse import parse_datetime
-from myapp.auth_helper import get_sign_in_flow, get_token_from_code, store_user, remove_user_and_token, get_token
+from myapp.auth_helper import get_sign_in_flow, get_token_from_code, store_user, remove_user_and_token, get_new_access_token
 from myapp.graph_helper import *
 from .models import Event
 import json
@@ -10,130 +10,151 @@ import os
 from django.utils import timezone
 import pytz
 from datetime import datetime
-import yaml
 
 
 def home(request):
+    """
+    Handle the main page of the application.
+    
+    - Initialize context with user and error details.
+    - Check and retrieve access token.
+    - Fetch and save events from Microsoft Graph API.
+    - Filter events based on request parameters.
+    - Return the rendered HTML page with events and filters.
+    """
     context = initialize_context(request)
 
-    # Check if the access_token.json file exists
+    # Load the token data from the JSON file
     if os.path.exists('access_token.json'):
-        # Load the access token from the JSON file
         with open('access_token.json', 'r') as f:
             token_data = json.load(f)
+    else:
+        token_data = {}
 
-        # Check if the access token exists
-        if 'access_token' in token_data:
-            token = token_data['access_token']
+    # Check if the access token exists
+    token = token_data.get('access_token')
+    if not token:
+        # If the access token doesn't exist or is expired, try to get a new one
+        token = get_new_access_token(request)
+        if not token:
+            # Handle the case where we couldn't get a new token
+            # Redirect the user to the sign-in page
+            request.session['flash_error'] = 'Your session has expired. Please sign in again.'
+            return HttpResponseRedirect(reverse('signin'))
 
-            headers = {
-                'Authorization': 'Bearer ' + token,
-            }
+    headers = {
+        'Authorization': 'Bearer ' + token,
+    }
 
-            # List all events
-            response = requests.get(
-                graph_url + '/me/events',
-                headers=headers,
+    # List all events
+    response = requests.get(
+        graph_url + '/me/events',
+        headers=headers,
+    )
+
+    # Write all events to a JSON file
+    events = response.json().get('value', [])
+    with open('events.json', 'w') as f:
+        json.dump(events, f, indent=4)
+
+    # Save the events to the database
+    for event in events:
+        # Parse the start and end times as naive datetime objects
+        start_time_naive = parse_datetime(event['start']['dateTime'])
+        end_time_naive = parse_datetime(event['end']['dateTime'])
+
+        # Make the datetime objects aware
+        ist = pytz.timezone('Asia/Kolkata')
+        start_time = ist.localize(start_time_naive)
+        end_time = ist.localize(end_time_naive)
+        
+        # Get the location, attendees, and description
+        location = event['location']['displayName']
+        attendees = json.dumps(event['attendees'])  # Convert the attendees list to a JSON string
+        organizer = json.dumps(event['organizer'])  # Convert the organizer dict to a JSON string
+        description = event['bodyPreview']
+
+        # Get the additional fields
+        is_cancelled = event['isCancelled']
+        is_online_meeting = event['isOnlineMeeting']
+        online_meeting_provider = event['onlineMeetingProvider']
+        web_link = event['webLink']
+
+        # Check if the event already exists in the database
+        if not Event.objects.filter(event_id=event['id'], subject=event['subject'], start_time=start_time, end_time=end_time).exists():
+            # Create a new Event object
+            Event.objects.create(
+                event_id=event['id'],
+                subject=event['subject'],
+                start_time=start_time,
+                end_time=end_time,
+                location=location,                        
+                attendees=attendees,
+                organizer=organizer,
+                description=description,
+                is_cancelled=is_cancelled,
+                is_online_meeting=is_online_meeting,
+                online_meeting_provider=online_meeting_provider,
+                web_link=web_link,
             )
 
-            # Write all events to a JSON file
-            events = response.json().get('value', [])
-            with open('events.json', 'w') as f:
-                json.dump(events, f, indent=4)
+    # Start with all events
+    events = Event.objects.all().order_by('start_time')
 
-           # Save the events to the database
-            for event in events:
-                # Parse the start and end times as naive datetime objects
-                start_time_naive = parse_datetime(event['start']['dateTime'])
-                end_time_naive = parse_datetime(event['end']['dateTime'])
+    # Get the date filter from the GET parameters
+    filter = request.GET.get('filter')
+    now = timezone.now()
 
-                # Make the datetime objects aware
-                ist = pytz.timezone('Asia/Kolkata')
-                start_time = ist.localize(start_time_naive)
-                end_time = ist.localize(end_time_naive)
-                
-                # Get the location, attendees, and description
-                location = event['location']['displayName']
-                attendees = json.dumps(event['attendees'])  # Convert the attendees list to a JSON string
-                description = event['bodyPreview']
+    # Apply the date filter if provided
+    if filter == 'today':
+        events = events.filter(start_time__date=now.date())
+    elif filter == 'past':
+        events = events.filter(end_time__lt=now)
+    elif filter == 'upcoming':
+        events = events.filter(start_time__gt=now)
 
-                # Get the additional fields
-                is_cancelled = event['isCancelled']
-                is_online_meeting = event['isOnlineMeeting']
-                online_meeting_provider = event['onlineMeetingProvider']
-                web_link = event['webLink']
+    # Get the location filter from the GET parameters
+    location_filter = request.GET.get('locationFilter')
 
-                # Check if the event already exists in the database
-                if not Event.objects.filter(event_id=event['id'], subject=event['subject'], start_time=start_time, end_time=end_time).exists():
-                    # Create a new Event object
-                    Event.objects.create(
-                        event_id=event['id'],
-                        subject=event['subject'],
-                        start_time=start_time,
-                        end_time=end_time,
-                        location=location,
-                        attendees=attendees,
-                        description=description,
-                        is_cancelled=is_cancelled,
-                        is_online_meeting=is_online_meeting,
-                        online_meeting_provider=online_meeting_provider,
-                        web_link=web_link,
-                        # Add any other fields you need
-                    )
-            events = Event.objects.all().order_by('start_time')
+    # Apply the location filter if provided
+    if location_filter and location_filter != 'all':
+        events = events.filter(location=location_filter)
 
-            # Get the current date
-            today = timezone.now().date()
+    # Create a new list to store the modified events
+    modified_events = []
+    for event in events:
+        # Parse attendees JSON into list of dictionaries
+        attendees_data = json.loads(event.attendees)
+        organizer_data = json.loads(event.organizer)
+        
+        # Extract name and email addresses from attendees data
+        attendees_info = [f"{attendee['emailAddress']['name']} - {attendee['emailAddress']['address']}" for attendee in attendees_data]
+        organizer_info = f"{organizer_data['emailAddress']['name']} - {organizer_data['emailAddress']['address']}"
+        
+        # Modify the event's attendees attribute in-place
+        event.attendees = ', '.join(attendees_info)
+        event.organizer = organizer_info
 
-            # Filter events based on the current date
-            todays_events = Event.objects.filter(start_time__date=today)
-            past_events = Event.objects.filter(start_time__date__lt=today)
-            upcoming_events = Event.objects.filter(start_time__date__gt=today)
+        # Add the modified event to the new list
+        modified_events.append(event)
 
-            # Get the filter from the GET parameters
-            filter = request.GET.get('filter')
-
-            now = timezone.now()
-
-            # If a filter was provided, filter the events by this filter
-            if filter == 'today':
-                events = Event.objects.filter(start_time__date=now.date()).order_by('start_time')
-            elif filter == 'past':
-                events = Event.objects.filter(end_time__lt=now).order_by('-end_time')
-            elif filter == 'upcoming':
-                events = Event.objects.filter(start_time__gt=now).order_by('start_time')
-            else:
-                events = Event.objects.all().order_by('start_time')
-
-            # Create a new list to store the modified events
-            modified_events = []
-            for event in events:
-                # Parse attendees JSON into list of dictionaries
-                attendees_data = json.loads(event.attendees)
-                
-                # Extract email addresses from attendees data
-                email_addresses = [attendee['emailAddress']['address'] for attendee in attendees_data]
-                
-                # Modify the event's attendees attribute in-place
-                event.attendees = ', '.join(email_addresses)
-
-                # Add the modified event to the new list
-                modified_events.append(event)
-
-            # Get the date from the GET parameters
-            date = request.GET.get('date')
-
-            # If a date was provided, filter the events by this date
-            if date:
-                date = datetime.strptime(date, '%Y-%m-%d').date()  # Convert the string to a date object
-                events = Event.objects.filter(start_time__date=date)
-
-            context['events'] = modified_events
-            context['filter'] = filter
+    context['locationFilter'] = location_filter
+    context['filter'] = filter
+    context['events'] = modified_events
 
     return render(request, 'myapp/home.html', context)
 
+
+
+
 def initialize_context(request):
+    """
+    Initialize the context for views.
+    
+    - Check for flash error messages.
+    - Retrieve or set user authentication status.
+    - Return the context dictionary.
+    """
     context = {}
     error = request.session.pop('flash_error', None)
     if error is not None:
@@ -144,6 +165,13 @@ def initialize_context(request):
     return context
 
 def sign_in(request):
+    """
+    Initiate the user sign-in process.
+    
+    - Get the sign-in flow from the authentication helper.
+    - Save the flow to the session.
+    - Redirect to Azure sign-in page.
+    """
     # Get the sign-in flow
     flow = get_sign_in_flow()
     # Save the expected flow so we can use it in the callback
@@ -155,6 +183,13 @@ def sign_in(request):
     return HttpResponseRedirect(flow['auth_uri'])
 
 def sign_out(request):
+    """
+    Handle user sign-out process.
+    
+    - Remove user and token from session.
+    - Delete access_token.json if exists.
+    - Redirect to home page.
+    """
     # Clear out the user and token
     remove_user_and_token(request)
 
@@ -162,19 +197,17 @@ def sign_out(request):
     if os.path.exists('access_token.json'):
         os.remove('access_token.json')
 
-    # Delete the events.json file
-    if os.path.exists('events.json'):
-        os.remove('events.json')
-
-    # Clear the session
-    request.session.clear()
-
-    # Delete all events
-    Event.objects.all().delete()
-
     return HttpResponseRedirect(reverse('home'))
 
 def callback(request):
+    """
+    Handle the callback from Azure sign-in.
+    
+    - Retrieve token using code from request.
+    - Save token to JSON file.
+    - Get and store user profile in session.
+    - Redirect to home page.
+    """
     # Make the token request
     result = get_token_from_code(request)
 
