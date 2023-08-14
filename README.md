@@ -22,7 +22,7 @@ To get started with the Tata Steel Conference Portal, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd tata-steel-conference-portal
+    cd tsf-portal
     ```
 
 3. Install the required dependencies from `requirements.txt`:
@@ -60,13 +60,13 @@ To get started with the Tata Steel Conference Portal, follow these steps:
     python manage.py runserver_plus
     ```
 
-2. Access the Tata Steel Conference Portal at `http://localhost:8000` in your web browser.
+2. Access the Tata Steel Conference Portal at `https://localhost:8000` in your web browser.
 
 3. Log in using your credentials to access meetings, schedule, and events.
 
 ## Support
 
-For assistance, contact support@tatasteelconferenceportal.com.
+For assistance, contact cloudythought9@outlook.com.
 
 ## Contributing
 
