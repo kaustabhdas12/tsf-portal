@@ -16,7 +16,7 @@ To get started with the Tata Steel Conference Portal, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/tata-steel-conference-portal.git
+    git clone https://github.com/kaustabhdas12/tsf-portal.git
     ```
 
 2. Navigate to the project directory:
